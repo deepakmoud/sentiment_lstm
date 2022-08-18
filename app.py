@@ -10,7 +10,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
 from tensorflow import keras
 model = keras.models.load_model('sentiment analysis.h5')
-df = pd.read_csv('/content/drive/My Drive/filename 2.csv')
+df = pd.read_csv('filename 2.csv')
 Data_tweet=df[['tweet']]
 import re
 
