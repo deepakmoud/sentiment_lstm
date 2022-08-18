@@ -1,6 +1,6 @@
 
 import streamlit as st
-from textblob import TextBlob
+#from textblob import TextBlob
 from PIL import Image
 import pickle
 import numpy as np
