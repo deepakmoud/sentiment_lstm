@@ -25,7 +25,7 @@ requests
 scikit-learn
 scipy
 six
-sklearn
+
 threadpoolctl
 urllib3
 Werkzeug
