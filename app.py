@@ -95,31 +95,31 @@ html_temp = """
    <div class="" style="background-color:blue;" >
    <div class="clearfix">           
    <div class="col-md-12">
-   <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
-   <center><p style="font-size:30px;color:white;margin-top:10px;">Department of Computer Engineering</p></center> 
-   <center><p style="font-size:25px;color:white;margin-top:10px;"Major Project 2022</p></center> 
+   <center><p style="font-size:40px;color:white;margin-top:10px;">Natural Language Processing</p></center> 
+   <center><p style="font-size:30px;color:white;margin-top:10px;">Sentiment Analysis</p></center> 
+   <center><p style="font-size:25px;color:white;margin-top:10px;">LSTM </p></center> 
    </div>
    </div>
    </div>
    """
 st.markdown(html_temp,unsafe_allow_html=True)
-st.header("Russia v/s Ukraine Twitter Sentiment analysis LSTM System ")
+st.header("Sentiment analysis LSTM System ")
   
   
 text = st.text_area("Writre Twitter Review")
 
-if st.button("Twitter Sentiment Analysis"):
+if st.button("Sentiment Analysis"):
   result=predict_sentiment([text])
   st.success('Model has predicted {}'.format(result))
       
 if st.button("About"):
-  st.subheader("Developed by Kishore Kumar")
-  st.subheader("Student , Department of Computer Engineering")
+  st.subheader("Developed by Deepak Moud")
+  st.subheader("Trainer Natural Language Processing")
 html_temp = """
    <div class="" style="background-color:orange;" >
    <div class="clearfix">           
    <div class="col-md-12">
-   <center><p style="font-size:20px;color:white;margin-top:10px;">Major 2022 Project Deployment</p></center> 
+   <center><p style="font-size:20px;color:white;margin-top:10px;"> Project Deployment</p></center> 
    </div>
    </div>
    </div>
