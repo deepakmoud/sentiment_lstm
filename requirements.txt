@@ -30,7 +30,7 @@ threadpoolctl
 urllib3
 Werkzeug
 yarg
-re
+regex
 nltk
 
 requests
