@@ -25,16 +25,16 @@ requests
 scikit-learn
 scipy
 six
-
+textblob
 threadpoolctl
 urllib3
 Werkzeug
 yarg
-
+re
 nltk
 
 requests
-tensorflow
+tensorflow-cpu
 
 
 keras
