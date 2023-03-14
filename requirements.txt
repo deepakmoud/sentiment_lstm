@@ -32,10 +32,10 @@ Werkzeug
 yarg
 
 nltk
-flask-login
+
 requests
-tensorflow-cpu
-oauthlib
-pyOpenSSL
+tensorflow
+
+
 keras
 streamlit
