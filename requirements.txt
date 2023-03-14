@@ -30,11 +30,11 @@ threadpoolctl
 urllib3
 Werkzeug
 yarg
-mlxtend
+
 nltk
 flask-login
 requests
-tensorflow
+tensorflow-cpu
 oauthlib
 pyOpenSSL
 keras
