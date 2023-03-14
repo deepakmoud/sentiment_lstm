@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from textblob import TextBlob
 import re
-
+import sklearn
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 # Load the pickled model
