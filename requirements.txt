@@ -1,30 +1,21 @@
-
-itsdangerous
-Jinja2
-joblib
+opencv-python-headless
 gunicorn
-kiwisolver
+itsdangerous
+
 MarkupSafe
-matplotlib
-numpy
-pandas
-Pillow
-pipreqs
-
-requests
-scikit-learn
-scipy
-six
-textblob
-
 Werkzeug
+numpy
+scipy
 
-regex
-nltk
-protobuf<3.20
-requests
-tensorflow-cpu
-
+matplotlib
+pandas
 
 keras
+ h5py
+Tensorflow-cpu 
 streamlit
+
+nltk
+textblob
+regex
+
