@@ -1,4 +1,4 @@
-opencv-python-headless
+
 gunicorn
 itsdangerous
 
@@ -12,7 +12,7 @@ pandas
 
 keras
  h5py
-Tensorflow-cpu 
+Tensorflow
 streamlit
 
 nltk
